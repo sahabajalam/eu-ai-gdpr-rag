@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# data/
+# data/raw/
+# data/processed/
+# data/golden_qa/
+models/
+artifacts/
+.gemini/
+.idea/
+.vscode/
+
+# Archived documentation (moved to docs/research/)
+docs/research/
+
+# Backup directories (cleaned up)
+ui_vite_backup/
+*_backup/
+
+# Temporary files
+*.tmp
+*.bak

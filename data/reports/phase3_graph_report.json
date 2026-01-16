@@ -1,0 +1,332 @@
+[
+  {
+    "id": "gdpr_001",
+    "question": "What are the maximum fines for GDPR violations?",
+    "ground_truth": "The maximum fines regarding GDPR violations are up to \u20ac20 million or 4% of the undertaking's total worldwide annual turnover of the preceding financial year, whichever is higher, for severe violations (Article 83(5)). For less severe violations, it is up to \u20ac10 million or 2% of turnover (Article 83(4)).",
+    "generated_answer": "Infringements of certain provisions of the GDPR can result in administrative fines up to EUR 20\u00a0000\u00a0000, or in the case of an undertaking, up to 4 % of the total worldwide annual turnover of the preceding financial year, whichever is higher [Article 83(5), Article 83(6)]. Infringements of other provisions can result in administrative fines up to 10\u00a0000\u00a0000\u00a0EUR, or in the case of an undertaking, up to 2 % of the total worldwide annual turnover of the preceding financial year, whichever is higher [Article 83(4)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer accurately reflects the information in the ground truth regarding GDPR fines. However, the provided context does not contain the answer, making it irrelevant."
+    }
+  },
+  {
+    "id": "gdpr_002",
+    "question": "what is the definition of personal data?",
+    "ground_truth": "Personal data means any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+    "generated_answer": "'Personal data' means any information relating to an identified or identifiable natural person (\u2018data subject\u2019); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person [Article 4(1)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer provides the correct definition of personal data. However, the retrieved context is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "gdpr_003",
+    "question": "What are the conditions for consent to be valid?",
+    "ground_truth": "For consent to be valid, it must be freely given, specific, informed and unambiguous indication of the data subject's wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her (Article 4(11)). The controller must be able to demonstrate that the data subject has consented (Article 7(1)). It must be distinguishable from other matters, intelligible, easily accessible, and using clear language (Article 7(2)). It must be as easy to withdraw as to give (Article 7(3)).",
+    "generated_answer": "Consent must be freely given, specific, informed, and unambiguous [Article 4(11)]. When assessing whether consent is freely given, utmost account shall be taken of whether the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract [Article 7(4)]. If the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language [Article 7(2)].\n",
+    "metrics": {
+      "correctness_score": 4,
+      "context_score": 1,
+      "explanation": "The generated answer correctly identifies the core conditions for valid consent (freely given, specific, informed, and unambiguous). It also includes relevant articles. However, the context provided is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "gdpr_004",
+    "question": "When is a Data Protection Impact Assessment (DPIA) required?",
+    "ground_truth": "A DPIA is required where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons (Article 35(1)). Specifically, it is required for systematic and extensive evaluation of personal aspects based on automated processing (including profiling), processing on a large scale of special categories of data, or a systematic monitoring of a publicly accessible area on a large scale (Article 35(3)).",
+    "generated_answer": "A Data Protection Impact Assessment (DPIA) is required prior to processing where a type of processing, in particular using new technologies, is likely to result in a high risk to the rights and freedoms of natural persons [Article 35(1)]. A DPIA is specifically required in the case of: a systematic and extensive evaluation of personal aspects relating to natural persons which is based on automated processing, including profiling, and on which decisions are based that produce legal effects concerning the natural person or similarly significantly affect the natural person; processing on a large scale of special categories of data referred to in Article 9(1), or of personal data relating to criminal convictions and offences referred to in Article 10; or a systematic monitoring of a publicly accessible area on a large scale [Article 35(3)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 5,
+      "explanation": "The generated answer accurately reflects the ground truth and is well-supported by the provided context. The context directly addresses the question and offers the specific criteria for when a DPIA is required, which the generated answer successfully captures. The answer is comprehensive and aligns with the information in the ground truth."
+    }
+  },
+  {
+    "id": "gdpr_005",
+    "question": "What are the special categories of personal data?",
+    "ground_truth": "Special categories of personal data include data revealing racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, and the processing of genetic data, biometric data for the purpose of uniquely identifying a natural person, data concerning health or data concerning a natural person's sex life or sexual orientation (Article 9(1)).",
+    "generated_answer": "Special categories of personal data are the categories of personal data referred to in Article 9(1) of Regulation (EU) 2016/679, Article 10 of Directive (EU) 2016/680 and Article 10(1) of Regulation (EU) 2018/1725 [Article 3(37)].\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer provides a definition that is unrelated to the question. The retrieved context is also irrelevant to the question."
+    }
+  },
+  {
+    "id": "gdpr_006",
+    "question": "Can personal data be transferred to a third country without an adequacy decision?",
+    "ground_truth": "Yes, transfers to third countries without an adequacy decision are permitted if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available (Article 46(1)). Appropriate safeguards may include Binding Corporate Rules, Standard Data Protection Clauses adapted by the Commission, or approved codes of conduct/certification mechanisms (Article 46(2)). Specific derogations also exist for explicit consent, contract performance, public interest, etc. (Article 49).",
+    "generated_answer": "Yes, personal data can be transferred to a third country without an adequacy decision if the controller or processor has provided appropriate safeguards and on condition that enforceable data subject rights and effective legal remedies for data subjects are available [Article 46(1)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 3,
+      "explanation": "The generated answer accurately reflects the ground truth. While the provided context does not explicitly provide the same information, it does generally discuss the transfer of personal data to third countries, and therefore has some relevance."
+    }
+  },
+  {
+    "id": "gdpr_007",
+    "question": "What is the 'Right to be Forgotten'?",
+    "ground_truth": "The 'Right to be Forgotten' is formally known as the Right to Erasure (Article 17). It allows data subjects to obtain the erasure of personal data concerning them without undue delay where one of several grounds applies, such as: the data are no longer necessary, the data subject withdraws consent (and no other legal ground exists), the data subject objects (and no overriding legitimate grounds exist), the data have been unlawfully processed, or for compliance with a legal obligation.",
+    "generated_answer": "The right to be forgotten is not explicitly defined in the provided text. However, Article 17 addresses the \"erasure of personal data\" [Article 17(1)]. This article outlines when a data subject has the right to obtain erasure of their personal data and the obligations of the controller in such cases [Article 17(1), (2)].\n",
+    "metrics": {
+      "correctness_score": 2,
+      "context_score": 1,
+      "explanation": "The generated answer correctly identifies Article 17 as relevant but fails to provide a definition of the Right to be Forgotten. The retrieved context is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "gdpr_008",
+    "question": "What are the six legal bases for processing personal data?",
+    "ground_truth": "Processing is lawful only if one of the following applies (Article 6(1)): (a) Consent; (b) Performance of a contract; (c) Compliance with a legal obligation; (d) Vital interests of the data subject or another person; (e) Performance of a task carried out in the public interest or official authority; (f) Legitimate interests pursued by the controller or a third party (except where overridden by data subject interests/rights).",
+    "generated_answer": "The six legal bases for processing personal data are:\n1.  The data subject has given consent to the processing of his or her personal data for one or more specific purposes [Article 6(1)(a)].\n2.  Processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract [Article 6(1)(b)].\n3.  Processing is necessary for compliance with a legal obligation to which the controller is subject [Article 6(1)(c)].\n4.  Processing is necessary in order to protect the vital interests of the data subject or of another natural person [Article 6(1)(d)].\n5.  Processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller [Article 6(1)(e)].\n6.  Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child [Article 6(1)(f)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer perfectly lists the six legal bases for processing personal data, matching the ground truth. However, the retrieved context is irrelevant as it doesn't contain the answer to the question."
+    }
+  },
+  {
+    "id": "gdpr_009",
+    "question": "When must a personal data breach be reported to the supervisory authority?",
+    "ground_truth": "In the case of a personal data breach, the controller must notify the supervisory authority without undue delay and, where feasible, not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons (Article 33(1)).",
+    "generated_answer": "The controller shall notify the personal data breach to the supervisory authority without undue delay and, where feasible, not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons [Article 33(1)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer perfectly matches the ground truth. However, the retrieved context is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "gdpr_010",
+    "question": "Does GDPR apply to companies outside the EU?",
+    "ground_truth": "Yes, GDPR applies to controllers or processors not established in the Union if the processing activities relate to: (a) the offering of goods or services to data subjects in the Union (irrespective of payment); or (b) the monitoring of their behaviour as far as their behaviour takes place within the Union (Article 3(2)).",
+    "generated_answer": "Yes, this Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or the monitoring of their behaviour as far as their behaviour takes place within the Union [Article 3(2)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 5,
+      "explanation": "The generated answer perfectly matches the ground truth and accurately reflects the provided context. Both the answer and the context detail the circumstances in which GDPR applies to non-EU companies."
+    }
+  },
+  {
+    "id": "aiact_001",
+    "question": "What AI practices are strictly prohibited?",
+    "ground_truth": "The following AI practices are prohibited (Article 5): (a) Subliminal techniques that distort behavior to cause harm; (b) Exploiting vulnerabilities of specific groups (age, disability) to cause harm; (c) Social scoring by public authorities leading to detrimental treatment; (d) Risk assessment for criminal profiling; (e) Untargeted scraping of facial images for facial recognition databases; (f) Emotion recognition in workplace or education; (g) Biometric categorization to deduce sensitive data (race, politics, etc.); (h) Real-time remote biometric identification in public spaces by law enforcement (with strict exceptions).",
+    "generated_answer": "The following AI practices are prohibited:\n*   Deploying subliminal techniques or purposefully manipulative or deceptive techniques that materially distort a person's behavior, leading to an uninformed decision causing significant harm [Article 5(1)(a)].\n*   Exploiting vulnerabilities of individuals based on age, disability, or social/economic situation to materially distort their behavior, causing significant harm [Article 5(1)(b)].\n*   Using AI systems for social scoring that leads to detrimental or unjustified/disproportionate treatment [Article 5(1)(c)].\n*   Using AI systems for risk assessment of criminal offenses based solely on profiling or personality traits [Article 5(1)(d)].\n*   Scraping facial images from the internet or CCTV footage to create or expand facial recognition databases [Article 5(1)(e)].\n*   Inferring emotions in the workplace and educational institutions, except for medical or safety reasons [Article 5(1)(f)].\n*   Using biometric categorization systems to infer sensitive personal attributes (race, political opinions, etc.), with some exceptions for law enforcement [Article 5(1)(g)].\n*   Using 'real-time' remote biometric identification systems in publicly accessible spaces for law enforcement, with specific exceptions and conditions [Article 5(1)(h)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 5,
+      "explanation": "The generated answer accurately reflects the prohibited AI practices as outlined in the provided ground truth and is well-supported by the retrieved context. The context directly addresses prohibited AI practices."
+    }
+  },
+  {
+    "id": "aiact_002",
+    "question": "What is the definition of a 'High-Risk AI System'?",
+    "ground_truth": "A system is high-risk if (Article 6): (1) It involves a safety component of a product covered by Union harmonisation legislation (Annex I) and requires third-party conformity assessment; or (2) It falls under the specific areas listed in Annex III (e.g., biometrics, critical infrastructure, education, employment, essential services, law enforcement, migration, justice/democracy) AND poses a significant risk of harm to health, safety, or fundamental rights.",
+    "generated_answer": "An AI system is considered high-risk if it is intended to be used as a safety component of a product, or is itself a product, covered by the Union harmonisation legislation listed in Annex I, and the product or AI system itself is required to undergo a third-party conformity assessment [Article 6(1)]. Additionally, AI systems listed in Annex III are considered high-risk [Article 6(2)]. However, an AI system referred to in Annex III shall not be considered high-risk where it does not pose a significant risk of harm to the health, safety or fundamental rights of natural persons, including by not materially influencing the outcome of decision making, under certain conditions [Article 6(3)].\n",
+    "metrics": {
+      "correctness_score": 4,
+      "context_score": 1,
+      "explanation": "The generated answer accurately reflects the definition of a high-risk AI system as outlined in the ground truth. However, the provided context does not contain the specific definition, thus it is not relevant to the question."
+    }
+  },
+  {
+    "id": "aiact_003",
+    "question": "What are the transparency obligations for General Purpose AI (GPAI) models?",
+    "ground_truth": "Providers of GPAI models must (Article 53): (a) Draw up and keep up-to-date technical documentation; (b) Provide information and documentation to downstream providers to enable compliance; (c) Put in place a policy to respect Union copyright law; (d) Draw up and make publicly available a sufficiently detailed summary of the content used for training the GPAI model.",
+    "generated_answer": "Providers of general-purpose AI models shall draw up and make publicly available a sufficiently detailed summary about the content used for training of the general-purpose AI model, according to a template provided by the AI Office [Article 53(1)(d)]. They must also provide information and documentation to providers of AI systems who intend to integrate the general-purpose AI model into their AI systems [Article 53(1)(b)].\n",
+    "metrics": {
+      "correctness_score": 4,
+      "context_score": 5,
+      "explanation": "The generated answer accurately reflects some of the transparency obligations outlined in the provided context, but it misses a few key requirements like keeping technical documentation up-to-date and having a policy for copyright law."
+    }
+  },
+  {
+    "id": "aiact_004",
+    "question": "What are the penalties for violating the prohibition on AI practices (Article 5)?",
+    "ground_truth": "Violations of prohibited AI practices (Article 5) are subject to administrative fines of up to \u20ac35 million or, if the offender is a company, up to 7% of its total worldwide annual turnover for the preceding financial year, whichever is higher (Article 99(3)).",
+    "generated_answer": "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines of up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher [Article 99(3)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer is a perfect match for the ground truth. However, the provided context is completely irrelevant to the question about penalties."
+    }
+  },
+  {
+    "id": "aiact_005",
+    "question": "Is an AI system used for recruitment considered high-risk?",
+    "ground_truth": "Yes, AI systems intended to be used for the recruitment or selection of natural persons, notably for placing targeted job advertisements, analysing and filtering job applications, and evaluating candidates, are listed in Annex III(4)(a) and are therefore considered high-risk (subject to the filter condition in Article 6(3) regarding significant risk).",
+    "generated_answer": "Yes, AI systems intended to be used for the recruitment or selection of natural persons are considered high-risk [Article 6(2), Annex III, point 4(a)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 1,
+      "explanation": "The generated answer is correct and accurately reflects the ground truth. However, the retrieved context is irrelevant and does not provide any information related to the question. Therefore, the context score is low."
+    }
+  },
+  {
+    "id": "aiact_006",
+    "question": "When does the EU AI Act come into force?",
+    "ground_truth": "The Regulation enters into force on the twentieth day following its publication in the Official Journal (Article 113). It shall apply from 24 months after entry into force, with exceptions: Prohibitions (Chapter I & II) apply after 6 months; GPAI rules (Chapter V) after 12 months; High-risk obligations (Annex III) after 24 months; Safety component obligations (Annex I) after 36 months.",
+    "generated_answer": "I cannot find the exact date the EU AI Act comes into force in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer is incorrect because it claims to be unable to find the answer. The context provided is not relevant to the question. The ground truth provides the correct answer."
+    }
+  },
+  {
+    "id": "aiact_007",
+    "question": "Do I need to label deep fakes?",
+    "ground_truth": "Yes. Providers of AI systems that generate or manipulate image, audio or video content constituting a deep fake must ensure that the content has been marked in a machine-readable format and is detectable as artificially generated or manipulated (Article 50(2)). Deployers must simply disclose that the content has been artificially generated or manipulated (Article 50(4)).",
+    "generated_answer": "Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, SHALL disclose that the content has been artificially generated or manipulated [Article 50(4)].\n",
+    "metrics": {
+      "correctness_score": 4,
+      "context_score": 1,
+      "explanation": "The generated answer is mostly correct as it accurately reflects the deployer's responsibility to disclose deep fakes. However, it omits the provider's duty to mark the content in a machine-readable format, a crucial part of the ground truth. The context provided is irrelevant and doesn't contain the answer."
+    }
+  },
+  {
+    "id": "aiact_008",
+    "question": "What is the 'AI Office'?",
+    "ground_truth": "The AI Office is established within the Commission (Article 64). Its key functions include: developing Union expertise/capabilities, contributing to the implementation of the AI Act, monitoring GPAI models, supporting governance bodies, and coordinating cross-border cases.",
+    "generated_answer": "The AI Office is the Commission\u2019s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance [Article 3(47)].\n",
+    "metrics": {
+      "correctness_score": 2,
+      "context_score": 1,
+      "explanation": "The generated answer provides a definition of the AI Office, but it's incomplete and doesn't fully capture its key functions as outlined in the ground truth. The retrieved context is not relevant to the question. Therefore, the answer is partially correct but based on the wrong information."
+    }
+  },
+  {
+    "id": "aiact_009",
+    "question": "What is a Fundamental Rights Impact Assessment (FRIA)?",
+    "ground_truth": "A FRIA is an assessment that deployers of high-risk AI systems (who are bodies governed by public law or private entities providing public services/banking/insurance) must perform prior to putting the system into use (Article 27). It includes describing the deployment, the categories of natural persons affected, the specific risks of harm to fundamental rights, and the measures aimed at mitigating those risks.",
+    "generated_answer": "A Fundamental Rights Impact Assessment (FRIA) is an assessment of the impact on fundamental rights that the use of a high-risk AI system may produce [Article 27(1)].\n",
+    "metrics": {
+      "correctness_score": 2,
+      "context_score": 1,
+      "explanation": "The generated answer provides a very high-level definition but omits crucial details about the scope, purpose, and required elements of a FRIA. The retrieved context is irrelevant as it doesn't contain any information about FRIAs."
+    }
+  },
+  {
+    "id": "aiact_010",
+    "question": "Can I test my high-risk AI system in real-world conditions?",
+    "ground_truth": "Yes, testing in real world conditions is allowed but requires specific safeguards (Article 60), including: It needs a plan submitted to the market surveillance authority, informed consent of subjects (unless specific exceptions apply), the testing must not last longer than necessary, and serious incidents must be reported immediately. It usually occurs within an AI regulatory sandbox (Article 57).",
+    "generated_answer": "Yes, testing of high-risk AI systems in real-world conditions is possible [Article 9(7)]. However, it is subject to specific conditions [Article 60(4)].\n",
+    "metrics": {
+      "correctness_score": 2,
+      "context_score": 1,
+      "explanation": "The generated answer is partially correct in stating that real-world testing is possible, but it does not provide any of the necessary details found in the ground truth. The retrieved context is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "cross_001",
+    "question": "Can I use biometric data for emotion recognition in hiring?",
+    "ground_truth": "No. Under GDPR Article 9, biometric data is a special category of data requiring explicit consent or another strict legal basis. However, the EU AI Act Article 5(1)(f) specifically prohibits the use of AI systems to infer emotions of a natural person in the areas of workplace and education institutions. While GDPR might theoretically allow it with consent, the AI Act imposes an absolute prohibition in this specific context (hiring/workplace), which takes precedence as the stricter rule.",
+    "generated_answer": "I cannot find this information in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer is incorrect as it states that the information cannot be found, when the question asks about legal implications. The context is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "cross_002",
+    "question": "Do I need to do a DPIA if I already did a Fundamental Rights Impact Assessment (FRIA)?",
+    "ground_truth": "Likely both, but they can be combined. GDPR Article 35 requires a DPIA for high-risk processing (especially using new technologies/profiling). EU AI Act Article 27 requires a FRIA for certain deployers of high-risk AI. Article 27(4) of the AI Act states that if a DPIA is required by the GDPR, the FRIA shall be conducted in conjunction with that DPIA and published as part of it. They are distinct obligations but should be integrated to avoid duplication.",
+    "generated_answer": "If any of the obligations laid down in Article 27 are already met through the data protection impact assessment (DPIA) conducted pursuant to Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680, the fundamental rights impact assessment (FRIA) referred to in paragraph 1 of Article 27 shall complement that data protection impact assessment [Article 27(4)].\n",
+    "metrics": {
+      "correctness_score": 4,
+      "context_score": 3,
+      "explanation": "The generated answer accurately reflects the relationship between DPIA and FRIA, specifically mentioning how they complement each other. The context is partially relevant as it introduces the FRIA requirement but doesn't directly address the question of needing both. The generated answer and ground truth are very close."
+    }
+  },
+  {
+    "id": "cross_003",
+    "question": "How do transparency obligations differ between GDPR and AI Act for chatbots?",
+    "ground_truth": "GDPR Articles 13-14 requires controllers to provide information about the processing of personal data (identity, purposes, rights). EU AI Act Article 50(1) specifically requires that providers ensure AI systems intended to interact directly with natural persons are designed and developed in such a way that natural persons are informed that they are interacting with an AI system, unless this is obvious from the context. You must comply with both: tell them it's an AI (AI Act) AND tell them how their data is used (GDPR).",
+    "generated_answer": "I cannot find information on the differences between GDPR and the AI Act regarding transparency obligations for chatbots in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 4,
+      "explanation": "The generated answer is incorrect as the provided context does contain information relevant to the question, specifically detailing transparency obligations for AI systems. The context includes the AI Act's requirements, although it doesn't explicitly mention GDPR. The answer fails to identify any relevant information within the retrieved context."
+    }
+  },
+  {
+    "id": "cross_004",
+    "question": "Does the AI Act definition of 'biometric data' result in broader coverage than GDPR?",
+    "ground_truth": "The definitions are aligned but the AI Act introduces specific sub-categories. GDPR Article 4(14) defines biometric data. AI Act Article 3(33) shares definitions with GDPR but adds definitions for 'biometric identification', 'biometric verification', and 'biometric categorization'. The AI Act regulates the *use case* (e.g., remote identification) more strictly (often prohibiting it), whereas GDPR regulates the *data type* (requiring special legal basis).",
+    "generated_answer": "I cannot find the answer to your question in the provided text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer is correct in stating that it cannot find the answer within the provided context, but the context itself is completely irrelevant to the question."
+    }
+  },
+  {
+    "id": "cross_005",
+    "question": "Can I use automated decision making for loan applications?",
+    "ground_truth": "Under certain conditions. GDPR Article 22 grants the right not to be subject to solely automated decision-making producing legal/significant effects, unless it is necessary for a contract, authorized by law, or based on explicit consent (with safeguards). Under the AI Act Annex III(5)(b), AI systems used to evaluate creditworthiness are classified as High-Risk. Therefore, you must comply with GDPR Article 22 (have a legal basis + human intervention option) AND comply with AI Act Title III obligations (accuracy, robustness, documentation, etc.).",
+    "generated_answer": "I cannot find this information in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer is incorrect as it states the answer cannot be found in the provided text. The provided context is irrelevant to the question."
+    }
+  },
+  {
+    "id": "cross_006",
+    "question": "Which penalties apply if I breach both GDPR and AI Act?",
+    "ground_truth": "It is possible to be fined under both, but usually for different specific infringements. GDPR Article 83 imposes fines up to \u20ac20M/4% for data protection violations. AI Act Article 99 imposes fines up to \u20ac35M/7% for prohibited AI practices, or \u20ac15M/3% for other obligations. AI Act Article 99(7) states that for AI systems that are also products, if fines are imposed under other Union harmonization legislation, they should be taken into account. However, since the protected interests differ (Privacy vs Safety/Fundamental Rights), concurrent fines for distinct aspects of the same violation are possible.",
+    "generated_answer": "I cannot find this information in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 3,
+      "explanation": "The generated answer states it cannot find the information, which is incorrect. While the provided context does not explicitly detail the combined penalties for breaching both GDPR and the AI Act, it does contain information about the penalties for the AI Act. A more accurate response would have acknowledged the penalty information within the provided context."
+    }
+  },
+  {
+    "id": "cross_007",
+    "question": "Is the 'right to explanation' the same in GDPR and AI Act?",
+    "ground_truth": "Not exactly. GDPR Recital 71 and Article 13/14/15/22 imply a right to 'meaningful information about the logic involved' in automated decision-making. The AI Act Article 86 creates a specific 'right to explanation of individual decision-making' for persons affected by High-Risk AI systems that make decisions with legal/significant effects. The AI Act right is more explicit and potentially broader in scope regarding the *output* explanation, whereas GDPR focuses on the *logic* of processing.",
+    "generated_answer": "I cannot find information about the \"right to explanation\" in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 1,
+      "explanation": "The generated answer is incorrect as it states that the information cannot be found, while the ground truth and context suggest the answer should have been possible. The context is not relevant to the question."
+    }
+  },
+  {
+    "id": "cross_008",
+    "question": "Can I use real personal data in an AI Regulatory Sandbox?",
+    "ground_truth": "Yes, under specific conditions. AI Act Article 57 and 59 allow for the processing of personal data in regulatory sandboxes for developing and testing high-risk AI. Article 59 explicitly allows processing personal data collected for other purposes (re-purposing) within the sandbox subject to strict safeguards (e.g., functional separation, logging, deletion after testing). This acts as a specific legal enablement that interacts with GDPR principles.",
+    "generated_answer": "Yes, personal data lawfully collected for other purposes MAY be processed in the AI regulatory sandbox for developing, training, and testing certain AI systems, provided specific conditions are met [Article 59(1)].\n",
+    "metrics": {
+      "correctness_score": 5,
+      "context_score": 5,
+      "explanation": "The generated answer correctly states that personal data can be used in the AI regulatory sandbox, and it accurately reflects the information in the retrieved context. The context provides the conditions under which this is permissible, and the generated answer acknowledges those parameters, specifically citing Article 59(1)."
+    }
+  },
+  {
+    "id": "cross_009",
+    "question": "What is the relationship between the DPO and the AI compliance officers?",
+    "ground_truth": "The GDPR requires a Data Protection Officer (DPO) for certain entities (Article 37). The AI Act does not explicitly require an 'AI Officer', but requires a quality management system and human oversight (Article 17, 14). For high-risk AI involving personal data, the DPO must be involved. AI Act Article 27(4) even explicitly mandates joint execution of FRIA and DPIA, implying DPO involvement. Best practice suggests the DPO should oversee the data aspects of AI compliance, effectively bridging the roles.",
+    "generated_answer": "I cannot find information about the relationship between the DPO and the AI compliance officers in the provided legal text.\n",
+    "metrics": {
+      "correctness_score": 1,
+      "context_score": 3,
+      "explanation": "The generated answer is incorrect as the provided context and ground truth both contain information about the relationship between the DPO and AI compliance. The context, while not explicitly detailing the relationship, does mention the DPO's role in personal data protection, which is relevant to AI compliance. The ground truth clearly explains this relationship, which is the DPO's involvement in high-risk AI involving personal data."
+    }
+  },
+  {
+    "id": "cross_010",
+    "question": "Are 'profiling' under GDPR and 'High-Risk AI' under AI Act the same?",
+    "ground_truth": "No. 'Profiling' (GDPR Article 4(4)) is automated processing to evaluate personal aspects. It triggers GDPR rights/DPIA but isn't automatically 'High-Risk' under the AI Act unless it falls into Annex III use cases (e.g., recruitment, credit scoring). Conversely, a High-Risk AI system (e.g., safety component in machinery) might not involve profiling of individuals at all. There is a significant overlap where profiling is used for sensitive decisions (Annex III), but the concepts are distinct in scope.",
+    "generated_answer": "Profiling is defined in Article 4(4) as any form of automated processing of personal data to evaluate certain personal aspects relating to a natural person. High-risk AI systems are defined in Article 6. I cannot find information in the provided text that states whether they are the same.\n",
+    "metrics": {
+      "correctness_score": 2,
+      "context_score": 1,
+      "explanation": "The generated answer correctly identifies the definitions of profiling and high-risk AI systems. However, it fails to answer the question, stating it cannot find the information. The retrieved context does not directly address the comparison between profiling under GDPR and high-risk AI under the AI Act, leading to a low context relevance score."
+    }
+  }
+]
