@@ -1,6 +1,4 @@
-# 🇪🇺 EU AI Act & GDPR Compliance Assistant (Graph RAG)
-
-> **Repository Name Suggestion**: `eu-ai-gdpr-rag`
+# EU AI Act & GDPR Compliance Assistant (Graph RAG)
 
 An advanced **Graph Retrieval Augmented Generation (GraphRAG)** system that synthesizes precise legal answers from the **EU AI Act** and **GDPR**.
 
@@ -107,6 +105,52 @@ uv run python -m src.serving.api
 cd ui
 npm install
 npm run dev
+```
+
+---
+
+## ☁️ Deployment
+
+### 🐳 Docker (Local)
+To run the full stack locally using Docker Compose:
+```bash
+docker-compose up --build
+```
+
+### 🚀 Google Cloud Run (Backend & Frontend)
+We provide PowerShell scripts to automate deployment to Cloud Run.
+
+#### 1. Deploy Backend
+```powershell
+# Deploys to Cloud Run and prints the Backend URL
+.\deploy-backend.ps1
+```
+*   **Note**: This script reads your `GCP_PROJECT_ID` and `GEMINI_API_KEY` from your `.env` file.
+*   **Important**: After deployment, update your `.env` file's `BACKEND_URL` with the new Cloud Run URL.
+
+#### 2. Deploy Frontend (Container)
+```powershell
+# Deploys frontend, baking in the BACKEND_URL from your .env file
+.\deploy-frontend.ps1
+```
+
+### 🔥 Firebase Hosting (Recommended for Production)
+Firebase Hosting provides a global CDN for the frontend static assets.
+
+```powershell
+# 1. Setup Firebase (One-time)
+.\setup-firebase.ps1
+
+# 2. Deploy only hosting changes
+firebase deploy --only hosting
+```
+
+### 💰 Cost Optimization
+To save on storage costs, we provide a script to delete old Docker images from Google Container Registry.
+
+```powershell
+# Deletes old images, keeping only the latest version
+.\cleanup-images.ps1
 ```
 
 ---

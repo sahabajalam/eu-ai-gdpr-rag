@@ -83,7 +83,8 @@ export default function Home() {
     let streamConfidence = 0;
 
     try {
-      const res = await fetch('http://localhost:8000/api/chat/stream', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const res = await fetch(`${apiUrl}/api/chat/stream`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -210,7 +211,7 @@ export default function Home() {
       <header className="h-14 border-b px-6 flex items-center justify-between bg-card z-10 shrink-0">
         <div className="flex items-center gap-2">
           <Bot className="h-6 w-6 text-primary" />
-          <h1 className="font-bold text-lg">EU AI & GDPR Compliance RAG</h1>
+          <h1 className="font-bold text-lg">EU AI & GDPR Compliance Advisor</h1>
         </div>
 
         <div className="flex items-center gap-6">
